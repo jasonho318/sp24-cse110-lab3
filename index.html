@@ -100,13 +100,25 @@
                 <legend>
                     User Information
                 </legend>
+                
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
                 <br>
 
-                <label for="email">E-mail:</label>
-                <input type="text" id="email" name="email" required>
+                <label for="ucsd">UCSD Student?</label>
+                <input type="checkbox" id="ucsd" name="ucsd" required>
+
+                <br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <br>
+
+                <input type="radio" id="dogs" name="pet" value="dogs" checked /> <label for="huey">Dogs</label>
+
+                <input type="radio" id="cats" name="pet" value="cats" checked /> <label for="huey">Cats</label>
 
                 <br>
 
@@ -133,7 +145,7 @@
                 </select>
 
                 <br>
-
+                
                 <button type="button">Submit</button>
             </fieldset>
         </form>
