@@ -1,161 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Meeting Minutes</title>
-        <meta charset='UTF-8'/>
-        <link rel="icon" href="assets/Devil_Emoji_Icon_7590c90c-e509-4534-bb4f-056c2c68c9e4_grande.webp"/>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1><img src="assets/Money_with_Wings_Emoji_grande.webp" alt="Money_with_Wings_Emoji" height="25" width="25"> Meeting Minutes</h1>
-            <nav>
-                <ul>
-                    <li><a href="#Meeting-Information">Meeting Information</a></li>
-                    <li><a href="#Attendees">Attendees</a></li>
-                    <li><a href="#Agenda-Items">Agenda Items</a></li>
-                    <li><a href="#Discussion-Items">Discussion Items</a></li>
-                    <li><a href="#Action-Items">Action Items</a></li>
-                    <li><a href="#Other-Notes-&-Information">Other Notes & Information</a></li>
-                </ul>
-            </nav>
-        </header>
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="assets/Devil_Emoji_Icon_7590c90c-e509-4534-bb4f-056c2c68c9e4_grande.webp"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meeting Minutes</h1>
+    </header>
 
-        <hr>
+    <main>
+      <section>
+        <h2 id="#Meeting-Information">Meeting Information</h2>
+        <ul>
+          <li><strong>Date:</strong> April 12, 2024</li>
+          <li><strong>Time:</strong> 7:00PM - 9:00PM</li>
+          <li><strong>Location:</strong> Zoom</li>
+          <li><strong>Purpose:</strong> Kickoff meeting</li>
+          <li>
+            <strong>Attendees:</strong> Jason, Manu, Arjun, Viann, Luis, Angel,
+            Angelo, Santiago, Suhaib, Ekin, Pranav
+          </li>
+        </ul>
+      </section>
 
-        <section>
-            <h2 id="#Meeting-Information">Meeting information</h2>
-            <ul>
-                <li><strong>Date:</strong> April 12, 2024</li>
-                <li><strong>Time:</strong> 7:00PM - 9:00PM</li>
-                <li><strong>Location:</strong> Zoom</li>
-                <li><strong>Purpose:</strong> Kickoff meeting</li>
-                <li><strong>Attendees:</strong> Jason, Manu, Arjun, Viann, Luis, Angel, <br> Angelo, Santiago, Suhaib, Ekin, Pranav</li>
-            </ul>
-        </section>
-        
-        <hr>
-        
-        <section>
-            <h2 id="#Agenda-Items">Agenda Items</h2>
-            <ol>
-                <li>Team Brand</li>
-                <li>Team Values/Contract</li>
-                <li>Team Bonding</li>
-            </ol>
+      <section>
+          <h2 id="#Agenda-Items">Agenda Items</h2>
+          <ol>
+            <li>Team Brand</li>
+            <li>Team Values/Contract</li>
+            <li>Team Bonding</li>
+          </ol>
+      </section>
 
-        </section>
-        
-        <hr>
-        
-        <section>
-            <h2 id="#Discussion-Items">Discussion Items</h2>
-                <h3>Team brand</h3>
-                <ul>
-                    <li>We r duh vinci</li>
-                </ul>
-                <h3>Team Values/Contract</h3>
-                <ul>
-                    <li>Be good</li>
-                </ul>
-                <h3>Team Bonding</h3>
-                <ul>
-                    <li>Skribbl.io</li>
-                </ul>
-        </section>
-        
-        <hr>
-        
-        <section>
-            <h2 id="#Action-Items">Action Items</h2>
-            <ul>
-                <li><b>Everyone:</b> Send clip for team intro vid</li>
-                <li><b>Jason:</b> Convert meeting minutes to <i>markdown</i> and put in repo</li>
-            </ul>
-        </section>
-        
-        <hr>
-        
-        <section>
-            <h2 id="#Other-Notes-&-Information">Other Notes & Information</h2>
-            <p>
-                Meeting video recording:
-                <video controls height="200" width="350">
-                    <source src="assets/video.mp4" type="video/mp4">
-                    Your browser does not support this video
-                </video>
-                <br>
-                Meeting audio ecording:
-                <audio controls>
-                    <source src="assets/audio.mp3" type="audio/mp3">
-                    Your browser does not support this audio
-                </audio>
-            </p>
-        </section>
-        
-        <hr>
+      <section>
+          <h2 id="#Discussion-Items">Discussion Items</h2>
+          <ol>
+            <li>Team Brand</li>
+            <li>Team Values/Contract</li>
+            <li>Team Bonding</li>
+          </ol>
+      </section>
 
-        <h2>Sign Up</h2>
-        <form action="/submit-form/" method="post">
-            <fieldset>
-                <legend>
-                    User Information
-                </legend>
-                
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+      <section>
+        <h2 id="#Action-Items">Action Items</h2>
+        <ul>
+          <li><b>Everyone:</b> Send clip for team intro vid</li>
+          <li>
+            <b>Jason:</b> Convert meeting minutes to <i>markdown</i> and put in
+            repo
+          </li>
+        </ul>
+      </section>
 
-                <br>
+      <section>
+        <h2 id="#Other-Notes-&-Information">Other Notes & Information</h2>
+      </section>
+    </main>
 
-                <label for="ucsd">UCSD Student?</label>
-                <input type="checkbox" id="ucsd" name="ucsd" required>
-
-                <br>
-
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required>
-
-                <br>
-
-                <input type="radio" id="dogs" name="pet" value="dogs" checked /> <label for="dogs">Dogs</label>
-
-                <input type="radio" id="cats" name="pet" value="cats" checked /> <label for="cats">Cats</label>
-
-                <br>
-
-                <label for="feedback">Feedback:</label>
-                <textarea id="feedback" name="feedback" rows="1"></textarea>
-
-                <br>
-
-                <label for="mood-right-now">Mood:</label>
-                <input list="mood" id="mood-right-now" name="mood-right-now"/>
-                <datalist id="mood">
-                    <option value="Happy"></option>
-                    <option value="Not happy"></option>
-                </datalist>
-
-                <br>
-
-                <label for="starter-type">Starter type:</label>
-                <select id="starter-type" name="starter-type">
-                    <option value="">Please choose one</option>
-                    <option value="fire">Fire</option>
-                    <option value="water">Water</option>
-                    <option value="grass">Grass</option>
-                </select>
-
-                <br>
-                
-                <button type="button">Submit</button>
-            </fieldset>
-        </form>
-
-        <hr>
-
-        <footer>
-            <div id="classification-statement">This document contains <em>sensitive</em> information and is intended for <b>authorized</b> recipients only</div>
-            <span>Copyright @ 2024 Meeting Minutes. All rights reserved </span>
-        </footer>
-    </body>
+    <footer>
+      <div id="classification-statement">
+        This document contains <em>sensitive</em> information and is intended
+        for <b>authorized</b> recipients only
+      </div>
+      <span>Copyright @ 2024 Meeting Minutes. All rights reserved </span>
+    </footer>
+  </body>
 </html>
