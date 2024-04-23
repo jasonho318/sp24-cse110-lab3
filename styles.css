@@ -1,3 +1,14 @@
-h1 {
-    color: rgb(80, 176, 255)
+:root {
+    --color-1: #d4a373;
+    --color-2: #faedcd;
+    --color-3: #fefae0;
+    --color-4: #e9edc9;
+    --color-5: #ccd5ae;
+}
+
+* {
+    color: rgb(0, 0, 0);
+    background-color: color(display-p3 1 1 1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
