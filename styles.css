@@ -15,10 +15,10 @@
 
 @media screen and (min-width: 768px) {
   img:hover {
-    height: 150px;
+    height: inherit;
   }
 
-  img:active {
+  #LeBron:active {
     transform: scaleX(-1);
   }
 }
@@ -85,6 +85,9 @@ footer {
   flex-direction: column;
   margin: auto;
   font-size: 10px;
+  p {
+    text-decoration: underline;
+  }
 }
 
 hr {
@@ -99,9 +102,42 @@ img {
 
 ul,
 ol {
-    list-style-type: square;
+  list-style-type: square;
+}
+
+ul li,
+ol > li {
+  color: green;
+}
+
+.Bottom {
+  background-color: var(--color-1);
+}
+
+img[src] {
+  border-width: 3px;
+  border-style: dotted;
+}
+
+h2 ~ ul,
+h2 ~ ol {
+  border-color: var(--color-5);
+  border-style: solid;
+  border-width: 1px;
 }
 
 p {
   text-align: center;
+}
+
+p + p {
+  color: red;
+}
+
+h2.Bottom {
+  font-style: oblique;
+}
+
+p:has(em) {
+  font-family: "Courier New", Courier, monospace;
 }
